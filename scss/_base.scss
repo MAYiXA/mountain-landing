@@ -17,4 +17,9 @@ ul {
 
 a {
     text-decoration: none;
+    opacity: .75;
+}
+
+a:hover {
+    opacity: 1;
 }

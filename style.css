@@ -15,6 +15,11 @@ ul {
 
 a {
   text-decoration: none;
+  opacity: 0.75;
+}
+
+a:hover {
+  opacity: 1;
 }
 
 /*# sourceMappingURL=style.css.map */
