@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 100px 0;
+  animation: 1s fadeIn 0.5s forwards;
+  opacity: 0;
+
+  h1 {
+    font-family: $heading;
+  }
+
+  nav {
+    ul {
+      display: flex;
+      margin-right: -15px;
+      li {
+        margin: 0 15px;
+      }
+    }
+  }
+}
