@@ -1,8 +1,17 @@
 .hero {
-  width: 100%;
-  height: 600px;
-  background: url(./assets/mountain.jpg) no-repeat;
-  background-size: cover;
+  position: relative;
+  z-index: 1;
+  &::before {
+    content: '';
+    position: absolute;
+    top: -5em;
+    z-index: -1;
+    width: 100%;
+    min-height: 100vh;
+    background: url(./assets/mountain.jpg) no-repeat;
+    background-size: cover;
+  }
+
   .btn {
     border-radius: 4px;
     text-transform: uppercase;
