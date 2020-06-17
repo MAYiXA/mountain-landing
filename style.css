@@ -67,6 +67,8 @@ header nav ul li {
   position: relative;
   z-index: 1;
   color: #fff;
+  width: 100%;
+  min-height: 100vh;
 }
 .hero::before {
   content: "";
@@ -74,7 +76,7 @@ header nav ul li {
   top: -5em;
   z-index: -1;
   width: 100%;
-  min-height: 100vh;
+  height: 100%;
   background: url(./assets/mountain.jpg) no-repeat;
   background-size: cover;
 }
@@ -105,7 +107,6 @@ header nav ul li {
   font-weight: bold;
   background-color: #3f51b5;
   padding: 1em 3em;
-  opacity: 1;
 }
 
 .showcase {
