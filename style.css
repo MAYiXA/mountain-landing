@@ -4,6 +4,12 @@
     opacity: 1;
   }
 }
+@keyframes slideUp {
+  100% {
+    opacity: 1;
+    margin-top: 0;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -22,6 +28,7 @@ ul {
 a {
   text-decoration: none;
   opacity: 0.75;
+  color: #fff;
 }
 a:hover {
   opacity: 1;
@@ -43,6 +50,7 @@ header {
   padding: 35px 100px 0;
   animation: 1s fadeIn 0.5s forwards;
   opacity: 0;
+  color: #fff;
 }
 header h1 {
   font-family: "Open Sans", sans-serif;
@@ -58,6 +66,7 @@ header nav ul li {
 .hero {
   position: relative;
   z-index: 1;
+  color: #fff;
 }
 .hero::before {
   content: "";
@@ -69,14 +78,34 @@ header nav ul li {
   background: url(./assets/mountain.jpg) no-repeat;
   background-size: cover;
 }
-.hero .btn {
+.hero .hero-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0;
+  margin-top: 100px;
+  animation: 1s 1s slideUp forwards;
+}
+.hero .hero-content h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+  margin-bottom: 0.7em;
+}
+.hero .hero-content p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 28px;
+  margin-bottom: 1em;
+}
+.hero .hero-content .btn {
   border-radius: 4px;
   text-transform: uppercase;
   text-align: center;
   font-weight: bold;
   background-color: #3f51b5;
   padding: 1em 3em;
-  color: #fff;
+  opacity: 1;
 }
 
 /*# sourceMappingURL=style.css.map */

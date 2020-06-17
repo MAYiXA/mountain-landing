@@ -3,3 +3,10 @@
     opacity: 1;
   }
 }
+
+@keyframes slideUp {
+  100% {
+    opacity: 1;
+    margin-top: 0;
+  }
+}
