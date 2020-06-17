@@ -108,4 +108,11 @@ header nav ul li {
   opacity: 1;
 }
 
+.showcase {
+  background: red;
+}
+.showcase .grid li:nth-child(1) {
+  background: yellow;
+}
+
 /*# sourceMappingURL=style.css.map */
