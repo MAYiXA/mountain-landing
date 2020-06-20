@@ -4,7 +4,6 @@
   color: $white;
   width: 100%;
   min-height: 100vh;
-
   &::before {
     content: '';
     position: absolute;
@@ -15,7 +14,6 @@
     background: url(./assets/mountain.jpg) no-repeat;
     background-size: cover;
   }
-
   .hero-content {
     display: flex;
     justify-content: center;
@@ -24,17 +22,14 @@
     opacity: 0;
     margin-top: 150px;
     animation: 1s 1s slideUp forwards;
-
     h2 {
       font: bold 60px $heading;
       margin-bottom: 0.7em;
     }
-
     p {
       font: 28px $body;
       margin-bottom: 1em;
     }
-
     .btn {
       border-radius: 4px;
       text-transform: uppercase;
