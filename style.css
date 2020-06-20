@@ -239,4 +239,24 @@ header nav ul li {
   margin-bottom: 50px;
 }
 
+.contact h2 {
+  text-transform: capitalize;
+  text-align: center;
+  font: bold 32px "Open Sans", sans-serif;
+  margin-bottom: 30px;
+}
+.contact p {
+  max-height: 775px;
+  line-height: 2;
+  padding: 0 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.contact hr {
+  width: 250px;
+  height: 3px;
+  background: #3f51b5;
+  margin-bottom: 50px;
+}
+
 /*# sourceMappingURL=style.css.map */
