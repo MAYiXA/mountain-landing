@@ -30,3 +30,7 @@ section {
   align-items: center;
   padding: 7%;
 }
+
+section:not(.hero):nth-child(even) {
+  background: $grey;
+}

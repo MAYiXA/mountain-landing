@@ -41,6 +41,10 @@ section {
   padding: 7%;
 }
 
+section:not(.hero):nth-child(even) {
+  background: #f5f5f5;
+}
+
 header {
   position: absolute;
   width: 100%;
