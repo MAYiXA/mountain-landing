@@ -91,7 +91,7 @@ header nav ul li {
   flex-direction: column;
   align-items: center;
   opacity: 0;
-  margin-top: 100px;
+  margin-top: 150px;
   animation: 1s 1s slideUp forwards;
 }
 .hero .hero-content h2 {
@@ -111,25 +111,6 @@ header nav ul li {
   padding: 1em 3em;
 }
 
-.showcase h2 {
-  text-transform: capitalize;
-  text-align: center;
-  font: bold 32px "Open Sans", sans-serif;
-  margin-bottom: 30px;
-}
-.showcase p {
-  max-height: 775px;
-  line-height: 2;
-  padding: 0 20px;
-  margin-bottom: 30px;
-  text-align: center;
-}
-.showcase hr {
-  width: 250px;
-  height: 3px;
-  background: #3f51b5;
-  margin-bottom: 50px;
-}
 .showcase .grid li {
   width: 400px;
   height: 350px;
