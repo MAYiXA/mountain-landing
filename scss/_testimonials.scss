@@ -1,3 +1,41 @@
 .testimonials {
-    
+  h2 {
+    text-transform: capitalize;
+    text-align: center;
+    font: bold 32px $heading;
+    margin-bottom: 30px;
+  }
+  p {
+    max-height: 775px;
+    line-height: 2;
+    padding: 0 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    &.quote {
+      font: 300 22px $heading;
+      line-height: 1.5;
+      margin: 40px 0 25px;
+      &::before {
+        font: 900 25px 'Font Awesome 5 Free';
+        content: '\f10d';
+        padding: 0.5em;
+        color: $purple;
+      }
+      &::after {
+        font: 900 25px 'Font Awesome 5 Free';
+        content: '\f10e';
+        padding: 0.5em;
+        color: $purple;
+      }
+    }
+    &.author {
+      font-weight: bold;
+    }
+  }
+  hr {
+    width: 250px;
+    height: 3px;
+    background: $blue;
+    margin-bottom: 50px;
+  }
 }

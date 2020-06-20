@@ -1,5 +1,28 @@
 .showcase {
+  h2 {
+    text-transform: capitalize;
+    text-align: center;
+    font: bold 32px $heading;
+    margin-bottom: 30px;
+  }
+  p {
+    max-height: 775px;
+    line-height: 2;
+    padding: 0 20px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  hr {
+    width: 250px;
+    height: 3px;
+    background: $blue;
+    margin-bottom: 50px;
+  }
   .grid {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     li {
       width: 400px;
       height: 350px;

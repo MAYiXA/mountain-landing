@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand&display=swap");
 @keyframes fadeIn {
   100% {
@@ -38,7 +39,7 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 7%;
+  padding: 5%;
 }
 
 section:not(.hero):nth-child(even) {
@@ -111,6 +112,31 @@ header nav ul li {
   padding: 1em 3em;
 }
 
+.showcase h2 {
+  text-transform: capitalize;
+  text-align: center;
+  font: bold 32px "Open Sans", sans-serif;
+  margin-bottom: 30px;
+}
+.showcase p {
+  max-height: 775px;
+  line-height: 2;
+  padding: 0 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.showcase hr {
+  width: 250px;
+  height: 3px;
+  background: #3f51b5;
+  margin-bottom: 50px;
+}
+.showcase .grid {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 .showcase .grid li {
   width: 400px;
   height: 350px;
@@ -152,6 +178,12 @@ header nav ul li {
   background: #3f51b5;
   margin-bottom: 50px;
 }
+.packages .grid {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 .packages .grid li {
   padding: 40px;
   flex-basis: 50%;
@@ -165,6 +197,46 @@ header nav ul li {
 .packages .grid li h3 {
   font: bold 30px "Open Sans", sans-serif;
   margin-bottom: 1em;
+}
+
+.testimonials h2 {
+  text-transform: capitalize;
+  text-align: center;
+  font: bold 32px "Open Sans", sans-serif;
+  margin-bottom: 30px;
+}
+.testimonials p {
+  max-height: 775px;
+  line-height: 2;
+  padding: 0 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.testimonials p.quote {
+  font: 300 22px "Open Sans", sans-serif;
+  line-height: 1.5;
+  margin: 40px 0 25px;
+}
+.testimonials p.quote::before {
+  font: 900 25px "Font Awesome 5 Free";
+  content: "";
+  padding: 0.5em;
+  color: #8c9eff;
+}
+.testimonials p.quote::after {
+  font: 900 25px "Font Awesome 5 Free";
+  content: "";
+  padding: 0.5em;
+  color: #8c9eff;
+}
+.testimonials p.author {
+  font-weight: bold;
+}
+.testimonials hr {
+  width: 250px;
+  height: 3px;
+  background: #3f51b5;
+  margin-bottom: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */

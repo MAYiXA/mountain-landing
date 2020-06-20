@@ -19,6 +19,10 @@
     margin-bottom: 50px;
   }
   .grid {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     li {
       padding: 40px;
       flex-basis: 50%;
