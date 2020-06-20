@@ -177,5 +177,25 @@ header nav ul li {
   background: #3f51b5;
   margin-bottom: 50px;
 }
+.packages .grid {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.packages .grid li {
+  padding: 40px;
+  flex-basis: 50%;
+  text-align: center;
+}
+.packages .grid li i {
+  font-size: 50px;
+  padding: 20px;
+  color: #8c9eff;
+}
+.packages .grid li h3 {
+  font: bold 30px "Open Sans", sans-serif;
+  margin-bottom: 1em;
+}
 
 /*# sourceMappingURL=style.css.map */
