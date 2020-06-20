@@ -26,15 +26,12 @@
     animation: 1s 1s slideUp forwards;
 
     h2 {
-      font-family: $heading;
-      font-weight: bold;
-      font-size: 60px;
+      font: bold 60px $heading;
       margin-bottom: 0.7em;
     }
 
     p {
-      font-family: $body;
-      font-size: 28px;
+      font: 28px $body;
       margin-bottom: 1em;
     }
 

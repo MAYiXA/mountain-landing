@@ -7,7 +7,7 @@
 @keyframes slideUp {
   100% {
     opacity: 1;
-    margin-top: 0;
+    margin-top: 50px;
   }
 }
 * {
@@ -91,14 +91,11 @@ header nav ul li {
   animation: 1s 1s slideUp forwards;
 }
 .hero .hero-content h2 {
-  font-family: "Open Sans", sans-serif;
-  font-weight: bold;
-  font-size: 60px;
+  font: bold 60px "Open Sans", sans-serif;
   margin-bottom: 0.7em;
 }
 .hero .hero-content p {
-  font-family: "Quicksand", sans-serif;
-  font-size: 28px;
+  font: 28px "Quicksand", sans-serif;
   margin-bottom: 1em;
 }
 .hero .hero-content .btn {
@@ -110,11 +107,51 @@ header nav ul li {
   padding: 1em 3em;
 }
 
-.showcase {
-  background: red;
+.showcase h2 {
+  text-transform: capitalize;
+  text-align: center;
+  font: bold 32px "Open Sans", sans-serif;
+  margin-bottom: 30px;
+}
+.showcase p {
+  max-height: 775px;
+  line-height: 2;
+  padding: 0 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.showcase hr {
+  width: 250px;
+  height: 3px;
+  background: #3f51b5;
+  margin-bottom: 50px;
+}
+.showcase .grid {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.showcase .grid li {
+  width: 400px;
+  height: 350px;
+  padding: 1em;
 }
 .showcase .grid li:nth-child(1) {
-  background: yellow;
+  background: url(./assets/mountain1.jpg) no-repeat center/cover content-box;
+  flex-basis: 30%;
+}
+.showcase .grid li:nth-child(2) {
+  background: url(./assets/mountain2.jpg) no-repeat center/cover content-box;
+  flex-basis: 70%;
+}
+.showcase .grid li:nth-child(3) {
+  background: url(./assets/mountain3.jpg) no-repeat center/cover content-box;
+  flex-basis: 70%;
+}
+.showcase .grid li:nth-child(4) {
+  background: url(./assets/mountain4.jpg) no-repeat center/cover content-box;
+  flex-basis: 30%;
 }
 
 /*# sourceMappingURL=style.css.map */
