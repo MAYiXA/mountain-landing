@@ -34,3 +34,10 @@ section {
 section:not(.hero):nth-child(even) {
   background: $grey;
 }
+
+.grid {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

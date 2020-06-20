@@ -130,12 +130,6 @@ header nav ul li {
   background: #3f51b5;
   margin-bottom: 50px;
 }
-.showcase .grid {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
 .showcase .grid li {
   width: 400px;
   height: 350px;
@@ -176,12 +170,6 @@ header nav ul li {
   height: 3px;
   background: #3f51b5;
   margin-bottom: 50px;
-}
-.packages .grid {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
 }
 .packages .grid li {
   padding: 40px;
